@@ -1,0 +1,48 @@
+body {
+	background: #000000;
+	color: #FFF;
+	font-family: tahoma, arial;
+	font-size: 11px;
+	line-height: 15px;
+
+	text-align: center;
+}
+
+* html body {
+	line-height: 13px;
+}
+
+#container{
+	max-width: 600px;
+	display: inline-block;
+}
+
+a:link { 
+	color: #B00000;
+	font-weight: bold;
+	text-decoration: none;
+}
+	
+a:visited { 
+	color: #B00000;
+	font-weight: bold;
+	text-decoration: none;	
+}
+	
+a:hover, a:active { 
+	color: #000000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.checkmark {
+	display: inline-block;
+	transform: rotate(45deg);
+	height: 25px;
+	width: 12px;
+	margin-left: 60%; 
+	border-bottom: 7px solid #78b13f;
+	border-right: 7px solid #78b13f;
+  }
+  table{
+	  text-align: left;
+  }
